@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd /Users/aimanyounis/Developer/PythonProject/app; source ../.venv/bin/activate; (uvicorn app:app --port 8765 > /private/tmp/claude-501/-Users-aimanyounis-Developer-PythonProject-app/27089...",
+  "error": "Exit code 1\n000\n000\n000\n000\n000\n000\n  File \"/Users/aimanyounis/Developer/PythonProject/app/app.py\", line 11, in <module>\n    from db import Post, User\n  File \"/Users/aimanyounis/Developer/PythonProject/app/db.py\", line 6, in <module>\n    from fastapi_users.db import SQLAlchemyUserDatabase, SQLAlchemyBaseUserTableUUID\nImportError: cannot import name 'SQLAlchemyUserDatabase' from 'fastapi_users.db' (/Users/aimanyounis/Developer/PythonProject/.venv/lib/python3.14/site-packages/fastapi_users/db/__in...",
+  "timestamp": "2026-09-26T00:12:00.740Z",
+  "retry_count": 1
+}
